@@ -1,5 +1,12 @@
 # @ark-ui/vue
 
+## [5.36.3] - 2026-05-11
+
+### Fixed
+
+- Fix `useDialog` to correctly unwrap `MaybeRef` props before `cleanProps` so computed/ref props like `id` are
+  preserved.
+
 ## [5.36.2] - 2026-04-22
 
 ### Fixed

@@ -1,5 +1,11 @@
 # @ark-ui/solid
 
+## [5.36.3] - 2026-05-11
+
+### Fixed
+
+- **Date Input**: Fix `DateInput.Segment` to stay in sync with the latest segment state while typing.
+
 ## [5.36.2] - 2026-04-22
 
 ### Fixed
