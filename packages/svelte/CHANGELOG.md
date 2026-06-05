@@ -1,5 +1,12 @@
 # @ark-ui/svelte
 
+## [5.22.1] - 2026-06-05
+
+### Fixed
+
+- Fix missing presence properties (e.g. `onExitComplete`) on `Drawer.RootProvider` and `Dialog.RootProvider` type
+  declarations.
+
 ## [5.22.0] - 2026-05-26
 
 ### Added

@@ -1,5 +1,11 @@
 # @ark-ui/vue
 
+## [5.37.1] - 2026-06-05
+
+### Fixed
+
+- **Date Input**: Fix `DateInput.Segment` to stay in sync with the latest segment state while typing.
+
 ## [5.37.0] - 2026-05-26
 
 ### Added
