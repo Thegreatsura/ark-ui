@@ -1,5 +1,15 @@
 # @ark-ui/vue
 
+## [5.40.1] - 2026-11-20
+
+### Fixed
+
+- **FileUpload**: Fixed `FileUpload.ItemPreviewImage` revoking its blob URL on every re-render, which caused
+  intermittent `ERR_FILE_NOT_FOUND` requests. The URL is now recreated only when the file changes.
+- **Menu**: Forward `value` on `Menu.ContextTrigger` the same way `Menu.Trigger` does.
+- **Toc**: Fix type declarations failing under `moduleResolution: node16` and `nodenext` without `skipLibCheck`.
+- **Highlight**: Fix duplicate `HighlightChunk` identifier error in `useHighlight` types when `skipLibCheck` is `false`.
+
 ## [5.40.0] - 2026-10-29
 
 ### Added
